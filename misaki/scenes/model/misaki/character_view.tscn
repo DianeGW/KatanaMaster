@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c6h002458rnc7"]
+
+[ext_resource type="Texture2D" uid="uid://b0whpxb5eog7b" path="res://misaki/scenes/model/misaki/Idle_00000.png" id="1_1c11l"]
+
+[node name="Misaki" type="Control" unique_id=82365837]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1397045817]
+position = Vector2(4, -2)
+
+[node name="idle" type="Sprite2D" parent="Node2D" unique_id=577833260]
+position = Vector2(2, -207)
+texture = ExtResource("1_1c11l")
+flip_h = true

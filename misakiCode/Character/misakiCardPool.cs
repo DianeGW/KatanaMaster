@@ -6,8 +6,8 @@ namespace misaki.misakiCode.Character;
 
 public class misakiCardPool : CustomCardPoolModel
 {
-    public override string Title => misaki.CharacterId; //This is not a display name.
-    
+    public override string Title => MisakiCharacter.CharacterId; //This is not a display name.
+
     public override string BigEnergyIconPath => "charui/big_energy.png".ImagePath();
     public override string TextEnergyIconPath => "charui/text_energy.png".ImagePath();
 
@@ -19,7 +19,7 @@ public class misakiCardPool : CustomCardPoolModel
     public override float H => 1f; //Hue; changes the color.
     public override float S => 1f; //Saturation
     public override float V => 1f; //Brightness
-    
+
     //Alternatively, leave these values at 1 and provide a custom frame image.
     /*public override Texture2D CustomFrame(CustomCardModel card)
     {
@@ -29,6 +29,6 @@ public class misakiCardPool : CustomCardPoolModel
 
     //Color of small card icons
     public override Color DeckEntryCardColor => new("ffffff");
-    
+
     public override bool IsColorless => false;
 }

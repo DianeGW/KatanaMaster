@@ -1,3 +1,15 @@
-{
-  
+{"MISAKI-MISAKI_CHARACTER.aromaPrinciple": "Lore",
+"MISAKI-MISAKI_CHARACTER.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+"MISAKI-MISAKI_CHARACTER.banter.dead.endTurnPing": "...",
+"MISAKI-MISAKI_CHARACTER.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+"MISAKI-MISAKI_CHARACTER.cardsModifierTitle": "__ Cards",
+"MISAKI-MISAKI_CHARACTER.description": "Katana Master",
+"MISAKI-MISAKI_CHARACTER.eventDeathPrevention": "Co-op survival line",
+"MISAKI-MISAKI_CHARACTER.goldMonologue": "Line spoken when obtaining a large amount of gold",
+"MISAKI-MISAKI_CHARACTER.possessiveAdjective": "her",
+"MISAKI-MISAKI_CHARACTER.pronounObject": "her",
+"MISAKI-MISAKI_CHARACTER.pronounPossessive": "hers",
+"MISAKI-MISAKI_CHARACTER.pronounSubject": "she",
+"MISAKI-MISAKI_CHARACTER.title": "Katana Master",
+"MISAKI-MISAKI_CHARACTER.titleObject": "Katana Master"
 }

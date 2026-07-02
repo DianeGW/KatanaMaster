@@ -3,6 +3,7 @@ using BaseLib.Extensions;
 using BaseLib.Utils;
 using misaki.misakiCode.Character;
 using misaki.misakiCode.Extensions;
+using Godot;
 
 namespace misaki.misakiCode.Relics;
 
@@ -18,7 +19,29 @@ namespace misaki.misakiCode.Relics;
 [Pool(typeof(misakiRelicPool))]
 public abstract class misakiRelic : CustomRelicModel
 {
-    public override string PackedIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".RelicImagePath();
-    protected override string PackedIconOutlinePath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png".RelicImagePath();
-    protected override string BigIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigRelicImagePath();
+    public override string PackedIconPath
+    {
+        get
+        {
+            var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".RelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "relic.png".RelicImagePath();
+        }
+    }
+
+    protected override string PackedIconOutlinePath
+    {
+        get
+        {
+            var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png".RelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "relic_outline.png".RelicImagePath();
+        }
+    }
+    protected override string BigIconPath
+    {
+        get
+        {
+            var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigRelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "relic.png".BigRelicImagePath();
+        }
+    }
 }

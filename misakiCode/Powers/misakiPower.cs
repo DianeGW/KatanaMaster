@@ -21,11 +21,12 @@ public abstract class misakiPower : CustomPowerModel
     /// Whether this power is a buff or debuff.
     /// </summary>
     public abstract override PowerType Type { get; }
-    
+
     /// <summary>
     /// How this power stacks if reapplied. Counter is the most common type, where applying the power again just
     /// adds to the amount. Single means the power does not stack, like Barricade. None functions identically to
     /// Single, but you're suggested to use Single as it is more explicit about how it will work.
     /// </summary>
     public abstract override PowerStackType StackType { get; }
+    
 }
