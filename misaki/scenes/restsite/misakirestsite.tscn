@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvmexmalm43l8"]
+
+[ext_resource type="Texture2D" uid="uid://cxla7fhgf1qun" path="res://misaki/scenes/model/misaki/idle/rest.png" id="1_hqlre"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Control"]
+position = Vector2(13, -353)
+scale = Vector2(1.6179999, 1.6477777)
+texture = ExtResource("1_hqlre")
+flip_h = true

@@ -45,6 +45,8 @@
         <Compile Remove="materials/**"/>
         <Compile Remove="shaders/**"/>
         <Compile Remove="images/**"/>
+        <Compile Include="misaki\scenes\vfx\afterimage.cs" />
+        <Compile Include="misaki\scenes\vfx\slashes.cs" />
         <EmbeddedResource Remove="misaki/**"/>
         <EmbeddedResource Remove="materials/**"/>
         <EmbeddedResource Remove="shaders/**"/>

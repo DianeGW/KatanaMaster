@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 namespace misaki.misakiCode.Powers;
 
 
-public class swordGustPower : CustomPowerModel
+public class SwordGustPower : misakiPower
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Counter;

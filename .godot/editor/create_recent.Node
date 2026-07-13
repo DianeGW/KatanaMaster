@@ -1,5 +1,12 @@
+Control
 Sprite2D
-Node2D
-AnimatedSprite2D
 AnimationPlayer
+AnimatedSprite2D
+CanvasLayer
+Node2D
+AudioStreamPlayer2D
+Label
+TextureRect
+AspectRatioContainer
+VideoStreamPlayer
 AnimationTree

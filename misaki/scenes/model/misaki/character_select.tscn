@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://d350gd5heomka"]
+
+[ext_resource type="VideoStream" uid="uid://bjc2f0uk3g5k4" path="res://misaki/scenes/model/misaki/idle/menu-misaki-vayapd.ogv" id="1_j0hit"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 224.0
+offset_top = 83.0
+offset_right = 224.0
+offset_bottom = 83.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9959101, 0.92)
+ratio = 1.6
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="AspectRatioContainer"]
+layout_mode = 2
+stream = ExtResource("1_j0hit")
+autoplay = true
+expand = true
+loop = true

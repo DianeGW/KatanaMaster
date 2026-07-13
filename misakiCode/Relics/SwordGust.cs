@@ -8,7 +8,7 @@ using misaki.misakiCode.Character;
 using misaki.misakiCode.Powers;
 namespace misaki.misakiCode.Relics;
 [Pool(typeof(misakiRelicPool))]
-public sealed class swordGust : misakiRelic
+public sealed class SwordGust : misakiRelic
 {           
     public override RelicRarity Rarity => RelicRarity.Starter;
     public override string PackedIconPath => "sword_gust.png".RelicImagePath();
@@ -18,9 +18,8 @@ public sealed class swordGust : misakiRelic
     {
         if (cardPlay.Card.Type == CardType.Attack)
         {
-            Flash();
-            await PowerCmd.Apply<swordGustPower>(choiceContext, Owner.Creature, 1, Owner.Creature, cardPlay.Card,
-                false);
+            await PowerCmd.Apply<SwordGustPower>(choiceContext, Owner.Creature, 1, Owner.Creature, cardPlay.Card,
+                true);
         }
         await base.AfterCardPlayed(choiceContext, cardPlay);
     }

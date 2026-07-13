@@ -1,3 +1,22 @@
 {
-  
-}
+  "MISAKI-MISAKI_STRIKE.description": "Deal {Damage:diff()} damage.",
+  "MISAKI-MISAKI_STRIKE.title": "Strike",
+  "MISAKI-MISAKI_DEFEND.description": "Gain {Block:diff()} [gold]block[/gold].",
+  "MISAKI-MISAKI_DEFEND.title": "Defend",
+  "MISAKI-SAKURA_SETSUDAN.description": "Deal {Damage:diff()} damage. \n Gain {Power:diff()} [gold]Sword Gust[/gold].",
+  "MISAKI-SAKURA_SETSUDAN.title": "Sakura Setsudan",
+  "MISAKI-LEGENDARY_SWORD.description": "Deal {Damage:diff()} damage. \n Gain [green]1-20[/green] [gold]Vigor[/gold]." ,
+  "MISAKI-LEGENDARY_SWORD.title": "Legendary Sword: Gawu Cut",
+  "MISAKI-ONI_SLASH.description": "Deal {Damage:diff()} damage.\n Draw {Cards:diff()} card. \n [gold]Aura 5[/gold]: \n Draw 2 cards.\n Lose 3 [gold]Sword Gust[/gold]",
+  "MISAKI-ONI_SLASH.title": "Oni Slash",
+  "MISAKI-SWORD_TRIAL.description": "Move 3 [gold]Strike[/gold] into your hand.\n [gold]Aura 6[/gold]: They cost 0{Energy:energyIcons()}. \n Lose 6 [gold]Sword Gust[/gold].",
+  "MISAKI-SWORD_TRIAL.title": "Sword Trial",
+  "MISAKI-COUNTER_ATTACK_CARD.description": "move test",
+  "MISAKI-COUNTER_ATTACK_CARD.title": "CounterAttackCard",
+  "MISAKI-TSUMUKARI.description": "Removes ALL enemies' [gold]defense buffs[/gold]. \n Deal {Damage:diff()} damage to ALL enemies 3 times .",
+  "MISAKI-TSUMUKARI.title": "Kusanagi no Tsurugi",
+  "MISAKI-SWORD_FORGE.description": "Create Muramasa",
+  "MISAKI-SWORD_FORGE.title": "Sword Forge",
+  "MISAKI-MURAMASA.description": "Deal {Damage:diff()}",
+  "MISAKI-MURAMASA.title": "Muramasa"
+} 
